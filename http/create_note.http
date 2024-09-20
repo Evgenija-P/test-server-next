@@ -1,0 +1,8 @@
+POST http://localhost:5000/blog/
+Content-Type: application/json
+
+{
+    "title": "First text note",
+    "text": "First text note First text note First text note",
+    "slug": "slug-slug-slug"
+}

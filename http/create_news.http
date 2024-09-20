@@ -1,0 +1,17 @@
+POST http://localhost:5000/news/
+Content-Type: application/json
+
+
+ {
+    "author": "",
+    "date": "",
+    "title": "",
+    "img": "",
+    "short_text": "",
+    "first_subtitle": "",
+    "first_text": "",
+    "second_subtitle": "",
+    "second_text": "",
+    "quote": "",
+    "slug": ""
+  }
