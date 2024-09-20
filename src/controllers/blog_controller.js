@@ -3,7 +3,7 @@ const BlogModel = require("../schemas/blog_schema");
 exports.getAllNotation = async (req, res) => {
   try {
     const note = await BlogModel.find();
-    console.log(note);
+
     res.status(200).json(note);
   } catch (error) {
     res.status(500).json({ message: error.message });
@@ -11,7 +11,7 @@ exports.getAllNotation = async (req, res) => {
 };
 
 exports.getNoteBySlug = async (req, res) => {
-  console.log(req.params); // перевіряємо, що приходить у params
+  // перевіряємо, що приходить у params
   const { slug } = req.params; // отримуємо slug з params
   try {
     const note = await BlogModel.findOne({ slug }); // шукаємо по полю slug

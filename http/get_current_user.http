@@ -1,0 +1,2 @@
+GET http://localhost:5000/auth/current HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZWQ1NTE0ZGRiNWJiZTkxODkxZTJmNiIsImlhdCI6MTcyNjgzMTExMiwiZXhwIjoxNzI2OTEzOTEyfQ.xIL_D4OFqA0JASPZk-HuaJMfYa-jlHfN0ts5AbmQ5wQ
